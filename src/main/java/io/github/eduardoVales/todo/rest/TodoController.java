@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController  //FAZ COM QUE A CLASSE SEJA UM COMPONENTE DO SPRING
 @RequestMapping("/api/todos") //MAPEAR URL QUE SERÁ FEITA AS REQUISIÇÕES
-@CrossOrigin("https://eduardovales.github.io/") //RECEBER REQUISIÇÕES DO DOMINIO :4200
+@CrossOrigin("*") //RECEBER REQUISIÇÕES DO DOMINIO :4200
 public class TodoController {
 
     @Autowired
